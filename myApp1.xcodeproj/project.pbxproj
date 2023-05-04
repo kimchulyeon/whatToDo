@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E4E743D2A039BFC00B01F80 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E743C2A039BFC00B01F80 /* MovieView.swift */; };
+		6E4E74402A03A84700B01F80 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E743F2A03A84700B01F80 /* String+Ext.swift */; };
 		6ED1C2132A0396B600DE040A /* myApp1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2122A0396B600DE040A /* myApp1App.swift */; };
 		6ED1C2152A0396B600DE040A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2142A0396B600DE040A /* ContentView.swift */; };
 		6ED1C2172A0396B700DE040A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED1C2162A0396B700DE040A /* Assets.xcassets */; };
@@ -16,6 +18,9 @@
 		6ED1C2292A0396B800DE040A /* myApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2282A0396B800DE040A /* myApp1Tests.swift */; };
 		6ED1C2332A0396B800DE040A /* myApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2322A0396B800DE040A /* myApp1UITests.swift */; };
 		6ED1C2352A0396B800DE040A /* myApp1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2342A0396B800DE040A /* myApp1UITestsLaunchTests.swift */; };
+		6ED1C2472A03990100DE040A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C2462A03990100DE040A /* SplashView.swift */; };
+		6ED1C24B2A039A0400DE040A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C24A2A039A0400DE040A /* WeatherView.swift */; };
+		6ED1C24E2A039A2500DE040A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C24D2A039A2500DE040A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6ED1C20F2A0396B600DE040A /* myApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4E743C2A039BFC00B01F80 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		6E4E743F2A03A84700B01F80 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		6ED1C20F2A0396B600DE040A /* 왓투두.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "왓투두.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED1C2122A0396B600DE040A /* myApp1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApp1App.swift; sourceTree = "<group>"; };
 		6ED1C2142A0396B600DE040A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6ED1C2162A0396B700DE040A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +55,9 @@
 		6ED1C22E2A0396B800DE040A /* myApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED1C2322A0396B800DE040A /* myApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApp1UITests.swift; sourceTree = "<group>"; };
 		6ED1C2342A0396B800DE040A /* myApp1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApp1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6ED1C2462A03990100DE040A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6ED1C24A2A039A0400DE040A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		6ED1C24D2A039A2500DE040A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E4E743E2A03A83A00B01F80 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E743F2A03A84700B01F80 /* String+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		6ED1C2062A0396B600DE040A = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +106,7 @@
 		6ED1C2102A0396B600DE040A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6ED1C20F2A0396B600DE040A /* myApp1.app */,
+				6ED1C20F2A0396B600DE040A /* 왓투두.app */,
 				6ED1C2242A0396B800DE040A /* myApp1Tests.xctest */,
 				6ED1C22E2A0396B800DE040A /* myApp1UITests.xctest */,
 			);
@@ -98,11 +116,11 @@
 		6ED1C2112A0396B600DE040A /* myApp1 */ = {
 			isa = PBXGroup;
 			children = (
-				6ED1C2122A0396B600DE040A /* myApp1App.swift */,
-				6ED1C2142A0396B600DE040A /* ContentView.swift */,
-				6ED1C2162A0396B700DE040A /* Assets.xcassets */,
-				6ED1C21B2A0396B700DE040A /* Persistence.swift */,
-				6ED1C21D2A0396B700DE040A /* myApp1.xcdatamodeld */,
+				6E4E743E2A03A83A00B01F80 /* Extension */,
+				6ED1C2442A03987400DE040A /* ViewModel */,
+				6ED1C2432A03987100DE040A /* View */,
+				6ED1C2422A03986D00DE040A /* Model */,
+				6ED1C2412A03983B00DE040A /* App */,
 				6ED1C2182A0396B700DE040A /* Preview Content */,
 			);
 			path = myApp1;
@@ -133,6 +151,75 @@
 			path = myApp1UITests;
 			sourceTree = "<group>";
 		};
+		6ED1C2412A03983B00DE040A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C2142A0396B600DE040A /* ContentView.swift */,
+				6ED1C21B2A0396B700DE040A /* Persistence.swift */,
+				6ED1C21D2A0396B700DE040A /* myApp1.xcdatamodeld */,
+				6ED1C2122A0396B600DE040A /* myApp1App.swift */,
+				6ED1C2162A0396B700DE040A /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6ED1C2422A03986D00DE040A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ED1C2432A03987100DE040A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C24C2A039A1E00DE040A /* MainView */,
+				6ED1C2492A0399F900DE040A /* MovieView */,
+				6ED1C2482A0399F400DE040A /* WeatherView */,
+				6ED1C2452A0398F400DE040A /* SplashView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ED1C2442A03987400DE040A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6ED1C2452A0398F400DE040A /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C2462A03990100DE040A /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		6ED1C2482A0399F400DE040A /* WeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C24A2A039A0400DE040A /* WeatherView.swift */,
+			);
+			path = WeatherView;
+			sourceTree = "<group>";
+		};
+		6ED1C2492A0399F900DE040A /* MovieView */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E743C2A039BFC00B01F80 /* MovieView.swift */,
+			);
+			path = MovieView;
+			sourceTree = "<group>";
+		};
+		6ED1C24C2A039A1E00DE040A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C24D2A039A2500DE040A /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,7 +237,7 @@
 			);
 			name = myApp1;
 			productName = myApp1;
-			productReference = 6ED1C20F2A0396B600DE040A /* myApp1.app */;
+			productReference = 6ED1C20F2A0396B600DE040A /* 왓투두.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6ED1C2232A0396B800DE040A /* myApp1Tests */ = {
@@ -263,8 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4E74402A03A84700B01F80 /* String+Ext.swift in Sources */,
 				6ED1C21C2A0396B700DE040A /* Persistence.swift in Sources */,
+				6ED1C24E2A039A2500DE040A /* MainView.swift in Sources */,
 				6ED1C2152A0396B600DE040A /* ContentView.swift in Sources */,
+				6ED1C2472A03990100DE040A /* SplashView.swift in Sources */,
+				6ED1C24B2A039A0400DE040A /* WeatherView.swift in Sources */,
+				6E4E743D2A039BFC00B01F80 /* MovieView.swift in Sources */,
 				6ED1C2132A0396B600DE040A /* myApp1App.swift in Sources */,
 				6ED1C21F2A0396B700DE040A /* myApp1.xcdatamodeld in Sources */,
 			);
@@ -433,16 +525,21 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CY.myApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "왓투두";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,16 +559,21 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CY.myApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "왓투두";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
