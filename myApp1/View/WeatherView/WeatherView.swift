@@ -30,7 +30,8 @@ struct WeatherView: View {
                         .background(.brown)
                         .padding(.horizontal, 20)
                     
-                    HStack {
+                    // 🌈🌈🌈 TODO 🌈🌈🌈 구조 바꾸기
+                    HStack(alignment: .top) {
                         VStack {
                             Text("미세먼지")
                             Text("보통")
@@ -50,10 +51,20 @@ struct WeatherView: View {
             }//{vstack}
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Image(systemName: "map")
+                    Button {
+                        print("map clicked:::")
+                    } label: {
+                        Image(systemName: "map")
+                    }
+
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Image(systemName: "arrow.clockwise")
+                    Button {
+                        print("refresh clicked:::")
+                    } label: {
+                        Image(systemName: "arrow.clockwise")
+                    }
+
                 }
             }//{toolbar}
         }//{navview}
